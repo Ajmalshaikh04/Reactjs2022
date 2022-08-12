@@ -1,0 +1,30 @@
+body {
+  background-color: #000000;
+}
+
+.grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.box {
+  border-radius: 90px;
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(24, 105, 255);
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #fff;
+}
+.card{
+  border-radius: 100px;
+}
